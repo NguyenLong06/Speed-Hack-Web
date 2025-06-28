@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "index.html",
+      "default_title": "HTML5 Universal Speed Hack PLUS"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "contentScript.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "This is a modded version of the HTML5 Universal Speed Hack made by TheByteyear",
+   "icons": {
+      "162": "icon.png"
+   },
+   "manifest_version": 2,
+   "name": "HUSH+",
+   "permissions": [ "\u003Call_urls>" ],
+   "version": "11.11"
+}
