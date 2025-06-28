@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Gartic.io Auto Bot Pro",
+  "version": "1.2",
+  "description": "Bot đoán từ nâng cao cho Gartic.io với YouTuber và Anime.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["*://gartic.io/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://gartic.io/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

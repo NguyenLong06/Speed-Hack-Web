@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Gartic Bot Pro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>🎮 Gartic Bot Pro</h1>
+  <label><input type="checkbox" name="lang" value="en" checked> English</label>
+  <label><input type="checkbox" name="lang" value="vi" checked> Tiếng Việt</label>
+
+  <label>Tốc độ (ms): <input id="delay" type="number" value="1000" min="100"></label>
+  <label>Độ dài từ (_ _ _): <input id="filterLength" type="number" min="2"></label>
+
+  <label><input type="radio" name="action" value="guess" checked> Đoán từ</label>
+  <label><input type="radio" name="action" value="draw"> Vẽ tranh</label>
+
+  <button id="start">▶️ Bắt đầu</button>
+  <button id="stop">⏹ Dừng</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
