@@ -1,26 +1,35 @@
-VIE:
+# HUSH+ — HTML5 Universal Speed Hack
 
-Mọi người tải xuống rồi vô chrome://extensions/
+A Chrome extension that speeds up or slows down web pages and HTML5 games by scaling browser time.
 
-sau khi vô thì hãy bật Developer mode
-<img width="217" height="39" alt="{CA962BCB-0558-4DB0-A582-88A0025394E8}" src="https://github.com/user-attachments/assets/f0684131-424b-4a7d-b32b-e5914fa67fa2" />
+Based on the original *HTML5 Universal Speed Hack* by TheByteyear.
 
-ở góc phải màn hình,nó sẽ hiện ra 3 lựa chọn.
+## Features
 
-<img width="520" height="73" alt="{B77DFBF0-2041-46DC-B1E6-2E6C4EAB1D80}" src="https://github.com/user-attachments/assets/82902df2-39b9-4018-94ea-cc12df49c320" />
+- Adjustable speed multiplier
+- Per-API toggles:
+  - `setInterval`
+  - `setTimeout`
+  - `performance.now`
+  - `Date.now`
+  - `requestAnimationFrame`
+- Works on all pages and frames
 
-Mọi người ấn vố Load unpacked (nếu chưa giải nén tệp hãy giải nén).Sau khi ấn hãy chọn file vừa giải nén rồi up lên
+## Installation
 
-Lưu ý:khi up lên thì phải tải lại trang mới có thể sài được
+1. Download and unzip the repository.
+2. Open `chrome://extensions/`.
+3. Enable **Developer mode** (top-right corner).
+4. Click **Load unpacked** and select the `HUSH-x100` folder.
+5. **Reload the page** you want to use it on for the extension to take effect.
 
-ENG:
+Requires Chrome 111 or newer (Manifest V3).
 
-Download the file, then go to `chrome://extensions/` in your browser.
+## Usage
 
-Once there, enable "Developer mode."
+Click the HUSH+ toolbar icon, then choose the speed and which timing APIs to affect.
 
-In the top-right corner of the screen, you will see three options.
+## Notes
 
-Click on "Load unpacked" (if you haven't unzipped the file yet, please do so). Select the unzipped folder and upload it.
-
-Note: After uploading, you must reload the page for it to work.
+- Some pages or games may misbehave at very high speeds.
+- For educational and testing purposes; respect the terms of the services you use.

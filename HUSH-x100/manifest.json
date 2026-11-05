@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "HUSH+",
+  "version": "12.0",
+  "description": "This is a modded version of the HTML5 Universal Speed Hack made by NgLongg",
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "HTML5 Universal Speed Hack PLUS"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "contentScript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "pageScript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true,
+      "world": "MAIN"
+    }
+  ]
+}
