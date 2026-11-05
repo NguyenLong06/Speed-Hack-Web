@@ -2,7 +2,7 @@
 
 A Chrome extension that speeds up or slows down web pages and HTML5 games by scaling browser time.
 
-Based on the original *HTML5 Universal Speed Hack* by TheByteyear.
+Based on the original *HTML5 Universal Speed Hack* by NgLongg.
 
 ## Features
 
