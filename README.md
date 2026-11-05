@@ -1,3 +1,5 @@
+VIE:
+
 Mọi người tải xuống rồi vô chrome://extensions/
 
 sau khi vô thì hãy bật Developer mode
@@ -10,3 +12,15 @@ sau khi vô thì hãy bật Developer mode
 Mọi người ấn vố Load unpacked (nếu chưa giải nén tệp hãy giải nén).Sau khi ấn hãy chọn file vừa giải nén rồi up lên
 
 Lưu ý:khi up lên thì phải tải lại trang mới có thể sài được
+
+ENG:
+
+Download the file, then go to `chrome://extensions/` in your browser.
+
+Once there, enable "Developer mode."
+
+In the top-right corner of the screen, you will see three options.
+
+Click on "Load unpacked" (if you haven't unzipped the file yet, please do so). Select the unzipped folder and upload it.
+
+Note: After uploading, you must reload the page for it to work.
